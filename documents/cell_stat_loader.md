@@ -114,8 +114,8 @@ Returns a summary dictionary of all spatial information for a cell:
 ### `_convert_cell_id(prefix: int, suffix: int = 1) -> str`
 
     Encodes a numeric prefix into a unique 8-character hexadecimal string using a shifted alphabet (0 → a, f → p), and appends the suffix.
-    | Hex Code | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
-    |----------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+    | Hex Code     | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+    |--------------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
     | Shifted Code | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p |
 
     For details see Section 'Cell ID format mapping' @ [Overview of Xenium Zarr Output Files](https://www.10xgenomics.com/support/software/xenium-onboard-analysis/1.9/analysis/outputs/xoa-output-zarr)
