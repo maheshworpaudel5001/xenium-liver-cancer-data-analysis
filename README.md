@@ -37,17 +37,18 @@ xenium_liver_cancer/
 ├── environment.yml            # Conda environment YAMLs
 ├── README.md                  # Project overview
 └── ....                       # python classes and helper functions
+```
 
-# 🛠️ Tools and Technologies
-- Python: Main programming language for data preprocessing and analysis.
-- Scanpy: For single-cell and spatial transcriptomics analysis.
-- Anndata: Data structure for annotated data matrices.
-- Zarr: Efficient storage of large, chunked, compressed, N-dimensional arrays.
-- R (optional): For additional analysis and visualization (e.g., Seurat).
-- Jupyter Notebooks: Interactive analysis and visualization.
-- Conda: Environment and dependency management.
+## 🛠️ Tools and Technologies
+    - Python: Main programming language for data preprocessing and analysis.
+    - Scanpy: For single-cell and spatial transcriptomics analysis.
+    - Anndata: Data structure for annotated data matrices.
+    - Zarr: Efficient storage of large, chunked, compressed, N-dimensional arrays.
+    - R (optional): For additional analysis and visualization (e.g., Seurat).
+    - Jupyter Notebooks: Interactive analysis and visualization.
+    - Conda: Environment and dependency management.
 
-# 📌 To Do
+## 📌 To Do
  ✅ Setup project structure
 
  Preprocess Xenium liver cancer and healthy data
@@ -58,12 +59,12 @@ xenium_liver_cancer/
 
  Add documentation and analysis figures
 
-# 📚 Documentations
+## 📚 Documentations
 
 - [FeatureMatrixLoader](documents/feature_matrix_loader.md)
 - [CellStatloader](documents/cell_stat_loader.md)
 
-🙋 Acknowledgments
+## 🙋 Acknowledgments
 10x Genomics for providing the Xenium platform and datasets.
 
 The broader open-source community for tools used in spatial transcriptomics.
