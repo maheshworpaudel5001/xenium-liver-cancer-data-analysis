@@ -1,5 +1,26 @@
 import zarr
 
+"""
+zarr_utils.py
+
+Utilities for reading Zarr data stores, supporting both local directories and ZIP-compressed stores.
+
+Classes:
+    ZarrReader: Context manager for opening Zarr groups from local or ZIP-compressed stores.
+
+Example:
+    from zarr_utils import ZarrReader
+
+    # Using as a context manager
+    with ZarrReader("/path/to/zarr_or_zip") as group:
+        data = group["my_dataset"][:]
+
+    # Or without context manager
+    reader = ZarrReader("/path/to/zarr_or_zip")
+    group = reader.get_group()
+    print(group.tree())
+    data = group["my_dataset"][:]
+"""
 
 class ZarrReader:
     def __init__(self, path: str):
