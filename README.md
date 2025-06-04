@@ -38,13 +38,16 @@ xenium_liver_cancer/
 ├── README.md                  # Project overview
 └── ....                       # python classes and helper functions
 
-## 🛠️ Tools and Technologies
-Python, Scanpy, Anndata, Zarr
+**Tools and Technologies**
+- Python: Main programming language for data preprocessing and analysis.
+- Scanpy: For single-cell and spatial transcriptomics analysis.
+- Anndata: Data structure for annotated data matrices.
+- Zarr: Efficient storage of large, chunked, compressed, N-dimensional arrays.
+- R (optional): For additional analysis and visualization (e.g., Seurat).
+- Jupyter Notebooks: Interactive analysis and visualization.
+- Conda: Environment and dependency management.
 
-R (optional, for Seurat or other tools)
-
-
-## 📌 To Do
+** 📌 To Do**
  ✅ Setup project structure
 
  Preprocess Xenium liver cancer and healthy data
