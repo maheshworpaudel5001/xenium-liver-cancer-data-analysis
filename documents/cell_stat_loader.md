@@ -118,7 +118,7 @@ Returns a summary dictionary of all spatial information for a cell:
     |--------------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
     | Shifted Code | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p |
 
-    For details see Section 'Cell ID format mapping' @ [Overview of Xenium Zarr Output Files](https://www.10xgenomics.com/support/software/xenium-onboard-analysis/1.9/analysis/outputs/xoa-output-zarr)
+For details see Section 'Cell ID format mapping' @ [Overview of Xenium Zarr Output Files](https://www.10xgenomics.com/support/software/xenium-onboard-analysis/1.9/analysis/outputs/xoa-output-zarr)
 ---
 
 ## 📂 Expected Zarr Structure
